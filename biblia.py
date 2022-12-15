@@ -33,4 +33,18 @@ def loanOrMortage():
             '\n' + 'Monthly payment: ', '%.f' % month_pay_result,
             '\n' + 'Amount for the entire period:', '%.f' % t_sum_result)
 def equa():
-    print("Я заебался")
+    print("""
+    What kind of equation do you want to solve?
+    1. Quadratic equation.
+    2. Linear equation.
+    3. Matrix equation
+    """)
+    x = int(input("Enter a number: "))
+    if x == 1:
+        print("пошел нахуй")
+    elif x == 2:
+        print("пошел нахуй")
+    elif x== 3:
+        print("пошел нахуй")
+    else:
+        print("пошел нахуй это не число кретин дурак мудак козел блин")
